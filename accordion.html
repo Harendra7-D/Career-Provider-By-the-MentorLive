@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Career Provider By The Mentor</title>
+    <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="CodedThemes">
+    <meta name="keywords" content=" Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="CodedThemes">
+    <!-- Favicon icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.min.css">
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
+    <!-- ico font -->
+    <link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring"><div class="frame"></div></div>
+                <div class="ring"><div class="frame"></div></div>
+                <div class="ring"><div class="frame"></div></div>
+                <div class="ring"><div class="frame"></div></div>
+                <div class="ring"><div class="frame"></div></div>
+                <div class="ring"><div class="frame"></div></div>
+                <div class="ring"><div class="frame"></div></div>
+                <div class="ring"><div class="frame"></div></div>
+                <div class="ring"><div class="frame"></div></div>
+                <div class="ring"><div class="frame"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="ti-menu"></i>
+                        </a>
+                        <a class="mobile-search morphsearch-search" href="#">
+                            <i class="ti-search"></i>
+                        </a>
+                        <a href="index.html">
+                            <img class="img-fluid" src="assets/images/Capture.png" alt="Theme-Logo" />
+                        </a>
+                        <a class="mobile-options">
+                            <i class="ti-more"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-container container-fluid">
+                        <ul class="nav-left">
+                            <li>
+                                <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
+                            </li>
+
+                            <li>
+                                <a href="#!" onclick="javascript:toggleFullScreen()">
+                                    <i class="ti-fullscreen"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="header-notification">
+                                <a href="#!">
+                                    <i class="ti-bell"></i>
+                                    <span class="badge bg-c-pink"></span>
+                                </a>
+                                <ul class="show-notification">
+                                    <li>
+                                        <h6>Notifications</h6>
+                                        <label class="label label-danger">New</label>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="notification-user">John Doe</h5>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <span class="notification-time">30 minutes ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="notification-user">Joseph William</h5>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <span class="notification-time">30 minutes ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="media">
+                                            <img class="d-flex align-self-center" src="assets/images/user.png" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="notification-user">Sara Soudein</h5>
+                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
+                                                <span class="notification-time">30 minutes ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="user-profile header-notification">
+                                <a href="#!">
+                                    <img src="assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                    <span>John Doe</span>
+                                    <i class="ti-angle-down"></i>
+                                </a>
+                                <ul class="show-notification profile-notification">
+                                    <li>
+                                        <a href="#!">
+                                            <i class="ti-settings"></i> Settings
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-user"></i> Profile
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-email"></i> My Messages
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-lock"></i> Lock Screen
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="auth-normal-sign-in.html">
+                                            <i class="ti-layout-sidebar-left"></i> Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+                        <div class="pcoded-inner-navbar main-menu">
+                            <div class="">
+
+                                <div class="main-menu-content">
+                                    <ul>
+                                        <li class="more-details">
+                                            <a href="#"><i class="ti-user"></i>View Profile</a>
+                                            <a href="#!"><i class="ti-settings"></i>Settings</a>
+                                            <a href="auth-normal-sign-in.html"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pcoded-search">
+                                <span class="searchbar-toggle">  </span>
+                                <div class="pcoded-search-box ">
+                                    <input type="text" placeholder="Search">
+                                    <span class="search-icon"><i class="ti-search" aria-hidden="true"></i></span>
+                                </div>
+                            </div>
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.navigation">Career Options</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="active">
+                                    <a href="index.html">
+                                        <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.dash.main">Dashboard</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Career Options After 12th</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class=" ">
+                                            <a href="12th Career Arts.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">UG Courses for Arts Students</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="12th Career Science.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">UG Courses available after 12th Science</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="12th Career Com.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">UG Courses available after 12th Commerce</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <!-- side nav bar printing -->
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Engineering</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class=" ">
+                                            <a href="CE.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Civil Engineer</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="CHE.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Chemical engineer</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="ARCHITECT.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Architect</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="LOTC.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">List of top Colleges</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <!-- side nav bar printing -->
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Medicine</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class=" ">
+                                            <a href="OP.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Orthopaedics</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="MP.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Microbiology</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="AY.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Ayurveda</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <!-- side nav bar printing -->
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Commerce</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class=" ">
+                                            <a href="CA.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Chartered Accountant</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="CS.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Company Secretary</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="MBA.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">MBA</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <!-- side nav bar printing -->
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Arts</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class=" ">
+                                            <a href="PHOTO.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Photography</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="FI.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Fitness Industry</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="VA.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Visual Arts</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Forms &amp; Tables</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li>
+                                    <a href="form-elements-component.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.form-components.main">Form Components</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="bs-basic-table.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.form-components.main">Basic Table</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Chart &amp; Maps</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li>
+                                    <a href="chart.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.form-components.main">Chart</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="map-google.html">
+                                        <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.form-components.main">Maps</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Pages</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class=" ">
+                                            <a href="auth-normal-sign-in.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Login</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="auth-sign-up.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Register</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="sample-page.html">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Sample Page</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                            </ul>
+
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Other</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="pcoded-hasmenu ">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Menu Levels</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class="">
+                                            <a href="javascript:void(0)">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-21">Menu Level 2.1</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li class="pcoded-hasmenu ">
+                                            <a href="javascript:void(0)">
+                                                <span class="pcoded-micon"><i class="ti-direction-alt"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.main">Menu Level 2.2</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                            <ul class="pcoded-submenu">
+                                                <li class="">
+                                                    <a href="javascript:void(0)">
+                                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.menu-level-31">Menu Level 3.1</span>
+                                                        <span class="pcoded-mcaret"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a href="javascript:void(0)">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-23">Menu Level 2.3</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <div class="main-body">
+                                <div class="page-wrapper">
+                                    <!-- Page-header start -->
+                                    <div class="page-header card">
+                                        <div class="row align-items-end">
+                                            <div class="col-lg-8">
+                                                <div class="page-header-title">
+                                                    <i class="icofont icofont-layout bg-c-blue"></i>
+                                                    <div class="d-inline">
+                                                        <h4>UG Courses for Commerce Students</h4>
+                                                        <span>Here are some interesting Insights for you to explore after completing 12th class from Commerce Stream</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="page-header-breadcrumb">
+                                                    <ul class="breadcrumb-title">
+                                                        <li class="breadcrumb-item">
+                                                            <a href="index.html">
+                                                                <i class="icofont icofont-home"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="breadcrumb-item"><a href="#!">Basic Components</a>
+                                                        </li>
+                                                        <li class="breadcrumb-item"><a href="#!">Commerce Stream</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Page-header end -->
+
+                                    <!-- Page-body start -->
+                                    <div class="page-body">
+                                        <!-- Row start -->
+                                        <div class="row">
+                                            <!-- Multiple Open Accordion start -->
+                                            <div class="col-lg-6">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <h5 class="card-header-text">Management Courses</h5>
+                                                    </div>
+                                                    <div class="card-block accordion-block">
+                                                        <div id="accordion" role="tablist" aria-multiselectable="true">
+                                                            <div class="accordion-panel">
+                                                                <div class="accordion-heading" role="tab" id="headingOne">
+                                                                    <h3 class="card-title accordion-title">
+                                                                        <a class="accordion-msg" data-toggle="collapse"
+                                                                        data-parent="#accordion" href="#collapseOne"
+                                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                                        BBA(Bachelor of Business Management)
+                                                                    </a>
+                                                                </h3>
+                                                            </div>
+                                                            <div id="collapseOne" class="panel-collapse collapse in"
+                                                            role="tabpanel" aria-labelledby="headingOne">
+                                                            <div class="accordion-content accordion-desc">
+                                                                <p>
+                                                                    The degree is designed to give a broad knowledge of the functional aspects of a company and their interconnection, while also allowing specialization in a particular area.[1] BBA programs thus expose students to a variety of "core subjects" and generally allow students to specialize in a specific academic area; see aside.
+
+The degree also develops the student's practical, managerial and communication skills, and business decision-making capability. Many programs incorporate training and practical experience, in the form of case projects, presentations, internships, industrial visits, and interaction with experts from the industry.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-panel">
+                                                        <div class="accordion-heading" role="tab" id="headingTwo">
+                                                            <h3 class="card-title accordion-title">
+                                                                <a class="accordion-msg" data-toggle="collapse"
+                                                                data-parent="#accordion" href="#collapseTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="collapseTwo">
+                                                                BCom(Bachelor of Commerce)
+                                                            </a>
+                                                        </h3>
+                                                    </div>
+                                                    <div id="collapseTwo" class="panel-collapse collapse"
+                                                    role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div class="accordion-content accordion-desc">
+                                                        <p>
+                                                            The Bachelor of Commerce degree[1] is designed to provide students with a wide range of managerial skills, while building competence in a particular area of business (see aside). Most universities, therefore, plan the degree such that in addition to their major, students are exposed to general business principles, taking courses in accounting, finance, economics, actuarial studies, business management, human resources and marketing; some programs also require business statistics and -calculus, and information systems. Depending on the institution, a formal academic major may or may not be established. Regardless, a Bachelor of Commerce degree requires students to take the majority of their courses in business-related subjects, including the aside, among others.
+
+For a comparison with other business degrees, see Business education § Undergraduate education.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-panel">
+                                                <div class=" accordion-heading" role="tab"
+                                                id="headingThree">
+                                                <h3 class="card-title accordion-title">
+                                                    <a class="accordion-msg" data-toggle="collapse"
+                                                    data-parent="#accordion" href="#collapseThree"
+                                                    aria-expanded="false"
+                                                    aria-controls="collapseThree">
+                                                    Bachelor of Commerce Honours
+                                                </a>
+                                            </h3>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse show"
+                                        role="tabpanel" aria-labelledby="headingThree">
+                                        <div class="accordion-content accordion-desc">
+                                            <p>
+                                                The Honours Bachelor of Commerce (HonsBCom or BComm (Hons) or HBCom or HBComm) is further advanced. The degree has a specialization aspect, analogous to the BBA, developing the student's business skills and / or providing in-depth knowledge of the field of commerce.
+
+It requires additional academic courses to be completed, and usually with higher academic performance standards, and may also require a researched thesis component. It often serves as an abridgement (or entry requirement) between the undergraduate program and postgraduate programs, including the Master of Commerce (M.Com. or M.Comm.) and the Master of Business Administration (MBA) degrees.
+
+It may consist of a four-year program [2] [3] or of a one-year program taken subsequent to a three-year Bachelor's degree; [4] the one-year program is typically focused exclusively on a single subject-area.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Multiple Open Accordion ends -->
+                <!-- Single Open Accordion start -->
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-header-text">Competitive Examination Courses</h5>
+                        </div>
+                        <div class="card-block accordion-block">
+                            <div class="accordion-box" id="single-open">
+                                <a class="accordion-msg">Chartered Accountant</a>
+                                <div class="accordion-desc">
+                                    <p>
+                                        Chartered accountants were the first accountants to form a professional accounting body, initially established in Scotland in 1854. The Edinburgh Society of Accountants (1854), the Glasgow Institute of Accountants and Actuaries (1854) and the Aberdeen Society of Accountants (1867) were each granted a royal charter almost from their inception.[1] The title is an internationally recognised professional designation; the certified public accountant designation is generally equivalent to it. Women were able to become chartered accountants only following the Sex Disqualification (Removal) Act 1919 after which, in 1920, Mary Harris Smith was recognised by the Institute of Chartered Accountants in England and Wales and became the first woman chartered accountant in the world.[2]
+
+Chartered accountants work in all fields of business and finance, including auditing, taxation, financial and general management. Some are engaged in public practice work, others work in the private sector and some are employed by government bodies.
+                                    </p>
+                                </div>
+                                <a class="accordion-msg">Company Secretary</a>
+                                <div class="accordion-desc">
+                                    <p>
+                                        A Company Secretary (CS) is a senior position in a private sector company or public sector organisation. The title CS is an internationally recognised professional designation given to Company Secretaries. Also known as Compliance Officers, Legal Officers or Chartered Secretaries, it is one of the positions that is a part of the Key Managerial Personne - KMP (which usually includes the CEO & CFO along with it) of any company. Considered to be one of the fastest growing professions & most lucrative jobs in the corporate world because of the ever increasing compliances and the importance of corporate governance all over the world, a CS is considered to be an expert in fields like Corporate Laws, Economic Laws, Capital Markets, Securties Laws, etc. In large American and Canadian publicly listed corporations, a Company Secretary is typically named a Corporate Secretary . A Company Secretary is responsible for the efficient administration of a company, particularly with regard to ensuring compliance with statutory and regulatory requirements and for ensuring that decisions of the board of directors are implemented.[1] Company Secretaries work in almost all fields of business and some are engaged in public practice work, others work in the private sector and some are employed by government bodies. It is the Company Secretaries that advise the Board of Directors in all legal matters of a company as they are considered to be the in-house legal officers of the company.
+                                    </p>
+                                </div>
+                                <a class="accordion-msg">Certified Management Accountant </a>
+                                <div class="accordion-desc">
+                                    <p>
+                                        Certified Management Accountant (CMA) is a professional certification credential in the management accounting and financial management fields. The certification signifies that the person possesses knowledge in the areas of financial planning, analysis, control, decision support, and professional ethics. There are many professional bodies globally that have management accounting professional qualifications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Open Accordion ends -->
+            </div>
+            <!-- Row end -->
+            <!-- Row start -->
+            <div class="row">
+                <!-- Scale Open Accordion start -->
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-header-text">List of Good Colleges For Commerce</h5>
+                        </div>
+                        <div class="card-block accordion-block">
+                            <div class="accordion-box" id="sclae-accordion">
+                                <a class="accordion-msg">Colleges Tier-1</a>
+                                <div class="accordion-desc">
+                                    <p>
+                                        St.Xavier's College, Kolkata
+Shri Ram College of Commerce, Delhi
+Loyola College, Chennai
+Lady Shri Ram College for Women, Delhi
+Christ College, Bangalore
+Hansraj College, Delhi
+Symbiosis Society's College, Pune
+KPB Hinduja College, Mumbai
+Mount Carmel College, Bangalore
+St. Joseph's College, Bangalore
+                                    </p>
+                                </div>
+                                <a class="accordion-msg">Top 25 Commerce Colleges in India</a>
+                                <div class="accordion-desc">
+                                    <p>St.Xavier's College, Kolkata
+Shri Ram College of Commerce, Delhi
+Loyola College, Chennai
+Lady Shri Ram College for Women, Delhi
+Christ College, Bangalore
+Hansraj College, Delhi
+Symbiosis Society's College, Pune
+KPB Hinduja College, Mumbai
+Mount Carmel College, Bangalore
+St. Joseph's College, Bangalore
+Madras Christian College, Chennai
+Shri Narsee Monjee College, Mumbai
+Stella Maris College, Chennai
+R.A. Podar College, Mumbai
+Presidency College, Kolkata
+Hindu College, Delhi
+H.R. College, Mumbai
+K.J. Somaiya College, Mumbai
+Brihan Maharashtra College, Pune
+Elphinstone College, Mumbai
+Sri Venkateswara College, Delhi
+Mithibai College, Mumbai
+Goenka College, Kolkata
+Ramjas College, Delhi
+Delhi College of Arts and Commerce, Delhi
+Best Commerce Colleges in Delhi
+                                    </p>
+                                </div>
+                                <a class="accordion-msg">Colleges Tier-2</a>
+                                <div class="accordion-desc">
+                                    <p>
+                                    Christ College
+Mount Carmel College
+St. Joseph's College
+Jyoti Nivas College
+Bhagawan Mahaveer Jain College
+MES College
+NMKRV College for Women
+MLA First Grade College for Women
+Kristu Jayanti College
+Seshadripuram College
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Scale Open Accordion ends -->
+                <!-- Color Open Accordion start -->
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-header-text">COLOR ACCORDION</h5>
+                        </div>
+                        <div class="card-block accordion-block color-accordion-block">
+                            <div class="color-accordion" id="color-accordion">
+                                <a class="accordion-msg b-none">Lorem Message 1</a>
+                                <div class="accordion-desc">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has been the
+                                        industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and
+                                        scrambled it to make a type specimen book. It has
+                                        survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged.
+                                        It was popularised in the 1960s with the release of
+                                        Letraset sheets containing Lorem Ipsum passages, and
+                                        more .
+                                    </p>
+                                </div>
+                                <a class="accordion-msg bg-dark-primary b-none">Lorem Message
+                                    2</a>
+                                    <div class="accordion-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and
+                                            typesetting industry. Lorem Ipsum has been the
+                                            industry's standard dummy text ever since the 1500s,
+                                            when an unknown printer took a galley of type and
+                                            scrambled it to make a type specimen book. It has
+                                            survived not only five centuries, but also the leap into
+                                            electronic typesetting, remaining essentially unchanged.
+                                            It was popularised in the 1960s with the release of
+                                            Letraset sheets containing Lorem Ipsum passages, and
+                                            more .
+                                        </p>
+                                    </div>
+                                    <a class="accordion-msg bg-darkest-primary b-none">Lorem Message
+                                        3</a>
+                                        <div class="accordion-desc">
+                                            <p>
+                                                Lorem Ipsum is simply dummy text of the printing and
+                                                typesetting industry. Lorem Ipsum has been the
+                                                industry's standard dummy text ever since the 1500s,
+                                                when an unknown printer took a galley of type and
+                                                scrambled it to make a type specimen book. It has
+                                                survived not only five centuries, but also the leap into
+                                                electronic typesetting, remaining essentially unchanged.
+                                                It was popularised in the 1960s with the release of
+                                                Letraset sheets containing Lorem Ipsum passages, and
+                                                more .
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Color Open Accordion ends -->
+                    </div>
+                    <!-- Row end -->
+                </div>
+                <!-- Page-body end -->
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed-button">
+	<a href="https://codedthemes.com/item/guru-able-admin-template/" target="_blank" class="btn btn-md btn-primary">
+	  <i class="fa fa-shopping-cart" aria-hidden="true"></i> Upgrade To Pro
+	</a>
+</div>
+
+<!-- Main-body end -->
+<!-- Warning Section Starts -->
+<!-- Older IE warning message -->
+<!--[if lt IE 9]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers
+        to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+<!-- Warning Section Ends -->
+<!-- Warning Section Starts -->
+<!-- Older IE warning message -->
+<!--[if lt IE 9]>
+<div class="ie-warning">
+    <h1>Warning!!</h1>
+    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers
+        to access this website.</p>
+    <div class="iew-container">
+        <ul class="iew-download">
+            <li>
+                <a href="http://www.google.com/chrome/">
+                    <img src="assets/images/browser/chrome.png" alt="Chrome">
+                    <div>Chrome</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.mozilla.org/en-US/firefox/new/">
+                    <img src="assets/images/browser/firefox.png" alt="Firefox">
+                    <div>Firefox</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.opera.com">
+                    <img src="assets/images/browser/opera.png" alt="Opera">
+                    <div>Opera</div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.apple.com/safari/">
+                    <img src="assets/images/browser/safari.png" alt="Safari">
+                    <div>Safari</div>
+                </a>
+            </li>
+            <li>
+                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                    <img src="assets/images/browser/ie.png" alt="">
+                    <div>IE (9 & above)</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+<!-- Warning Section Ends -->
+<!-- Required Jquery -->
+<script type="text/javascript" src="assets/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.js/popper.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap/js/bootstrap.min.js"></script>
+<!-- jquery slimscroll js -->
+<script type="text/javascript" src="assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+<!-- modernizr js -->
+<script type="text/javascript" src="assets/js/modernizr/modernizr.js"></script>
+<script type="text/javascript" src="assets/js/modernizr/css-scrollbars.js"></script>
+<!-- classie js -->
+<script type="text/javascript" src="assets/js/classie/classie.js"></script>
+<!-- Accordion js -->
+<script type="text/javascript" src="assets/pages/accordion/accordion.js"></script>
+<!-- Custom js -->
+<script type="text/javascript" src="assets/js/script.js"></script>
+<script src="assets/js/pcoded.min.js"></script>
+<script src="assets/js/demo-12.js"></script>
+<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+</body>
+</html>

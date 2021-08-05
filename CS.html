@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Company Secretary</h1>
+  <p>A Company Secretary (CS) is a senior position in a private sector company or public sector organisation. The title CS is an internationally recognised professional designation given to Company Secretaries. Also known as Compliance Officers, Legal Officers or Chartered Secretaries, it is one of the positions that is a part of the Key Managerial Personne - KMP (which usually includes the CEO & CFO along with it) of any company. Considered to be one of the fastest growing professions & most lucrative jobs in the corporate world because of the ever increasing compliances and the importance of corporate governance all over the world, a CS is considered to be an expert in fields like Corporate Laws, Economic Laws, Capital Markets, Securties Laws, etc. In large American and Canadian publicly listed corporations, a Company Secretary is typically named a Corporate Secretary . A Company Secretary is responsible for the efficient administration of a company, particularly with regard to ensuring compliance with statutory and regulatory requirements and for ensuring that decisions of the board of directors are implemented.[1] Company Secretaries work in almost all fields of business and some are engaged in public practice work, others work in the private sector and some are employed by government bodies. It is the Company Secretaries that advise the Board of Directors in all legal matters of a company as they are considered to be the in-house legal officers of the company.
+
+Company Secretary institutes require members to undertake a minimum level of continuing professional development to stay professionally competitive. They facilitate special interest groups (for instance, entertainment and media, or insolvency and restructuring) which lead in their fields. They provide support to members by offering advisory services, technical helplines and technical libraries. They also offer opportunities for professional networking, career and business development
+
+Despite the name, the role is not clerical or secretarial. CS ensures that an organisation complies with relevant legislation and regulation, and keeps board members informed of their legal responsibilities. Company Secretaries are the company's named representative on legal documents, and it is their responsibility to ensure that the company and its directors operate within the law. It is also their responsibility to register and communicate with shareholders, to ensure that dividends are paid and to maintain company records, such as lists of directors and shareholders, and annual accounts.
+
+In many countries, private companies have traditionally been required by law to appoint one person as a company secretary, and this person will also usually be a senior board member.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

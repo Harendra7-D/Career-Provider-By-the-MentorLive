@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Ayurveda</h1>
+  <p>Ayurveda is an alternative medicine system with historical roots in the Indian subcontinent.[2] The theory and practice of Ayurveda is pseudoscientific.[3][4][5] The Indian Medical Association (IMA) characterises the practice of medicine by Ayurvedic practitioners as quackery.[6] Ayurveda is heavily practiced in India and Nepal, where around 80% of the population report using it.[7][8][9][10]
+
+Ayurveda therapies have varied and evolved over more than two millennia.[2] Therapies include medicines, special diets, meditation, yoga, massage, laxatives, enemas, and medical oils.[11][12] Medicines are typically based on complex herbal compounds, minerals, and metal substances (perhaps under the influence of early Indian alchemy or rasa shastra). Ancient Ayurveda texts also taught surgical techniques, including rhinoplasty, kidney stone extractions, sutures, and the extraction of foreign objects.[13][14]
+
+The main classical Ayurveda texts begin with accounts of the transmission of medical knowledge from the gods to sages, and then to human physicians.[15] In Sushruta Samhita (Sushruta's Compendium), Sushruta wrote that Dhanvantari, Hindu god of Ayurveda, incarnated himself as a king of Varanasi and taught medicine to a group of physicians, including Sushruta.[16][17] Ayurveda has been adapted for Western consumption, notably by Baba Hari Dass in the 1970s and Maharishi Ayurveda in the 1980s. Some scholars assert that Ayurveda originated in prehistoric times,[18][19] and that some of the concepts of Ayurveda have existed from the time of the Indus Valley Civilization or even earlier.[20] Ayurveda developed significantly during the Vedic period and later some of the non-Vedic systems such as Buddhism and Jainism also developed medical concepts and practices that appear in the classical Ayurveda texts.[20]
+
+In Ayurveda texts, Doṣa balance is emphasized, and suppressing natural urges is considered unhealthy and claimed to lead to illness.[21] Ayurveda treatises describe three elemental doṣas viz. vāta, pitta and kapha, and state that balance (Skt. sāmyatva) of the doṣas results in health, while imbalance (viṣamatva) results in disease. Ayurveda treatises divide medicine into eight canonical components. Ayurveda practitioners had developed various medicinal preparations and surgical procedures from at least the beginning of the common era.[22]
+
+There is no good evidence that Ayurveda is effective for treating any disease.[23] Ayurvedic preparations have been found to contain lead, mercury, and arsenic,[24] substances known to be harmful to humans. In a 2008 study, close to 21% of U.S. and Indian-manufactured patent Ayurvedic medicines sold through the Internet were found to contain toxic levels of heavy metals, specifically lead, mercury, and arsenic.[25] The public health implications of such metallic contaminants in India are unknown.[25]</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

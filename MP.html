@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Microbiology</h1>
+  <p>Microbiology (from Greek μῑκρος, mīkros, "small"; βίος, bios, "life"; and -λογία, -logia) is the scientific study of microorganisms, those being unicellular (single cell), multicellular (cell colony), or acellular (lacking cells).[1][2] Microbiology encompasses numerous sub-disciplines including virology, bacteriology, protistology, mycology, immunology and parasitology.
+
+Eukaryotic microorganisms possess membrane-bound organelles and include fungi and protists, whereas prokaryotic organisms—all of which are microorganisms—are conventionally classified as lacking membrane-bound organelles and include Bacteria and Archaea.[3][4] Microbiologists traditionally relied on culture, staining, and microscopy. However, less than 1% of the microorganisms present in common environments can be cultured in isolation using current means.[5] Microbiologists often rely on molecular biology tools such as DNA sequence based identification, for example the 16S rRNA gene sequence used for bacteria identification.
+
+Viruses have been variably classified as organisms,[6] as they have been considered either as very simple microorganisms or very complex molecules. Prions, never considered as microorganisms, have been investigated by virologists, however, as the clinical effects traced to them were originally presumed due to chronic viral infections, and virologists took search—discovering "infectious proteins".
+
+The existence of microorganisms was predicted many centuries before they were first observed, for example by the Jains in India and by Marcus Terentius Varro in ancient Rome. The first recorded microscope observation was of the fruiting bodies of moulds, by Robert Hooke in 1666, but the Jesuit priest Athanasius Kircher was likely the first to see microbes, which he mentioned observing in milk and putrid material in 1658. Antonie van Leeuwenhoek is considered a father of microbiology as he observed and experimented with microscopic organisms in the 1670s, using simple microscopes of his own design. Scientific microbiology developed in the 19th century through the work of Louis Pasteur and in medical microbiology Robert Koch.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
